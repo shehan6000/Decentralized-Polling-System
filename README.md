@@ -24,5 +24,66 @@ The Decentralized Polling System is designed to allow users to create polls, par
 - React.js (for front-end)
 - MetaMask (for managing Ethereum accounts and transactions)
 
-## Project Structure
+
+## Prerequisites
+
+- Node.js
+- Truffle
+- Ganache
+- MetaMask
+
+## Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/YOUR_GITHUB_USERNAME/decentralized-polling-system.git
+    cd decentralized-polling-system
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    cd client
+    npm install
+    ```
+
+3. **Compile and deploy smart contracts:**
+
+    ```bash
+    truffle compile
+    truffle migrate
+    ```
+
+4. **Start the development server:**
+
+    ```bash
+    cd client
+    npm start
+    ```
+
+5. **Connect MetaMask to your local Ganache blockchain.**
+
+## Usage
+
+- **Create Polls**: Users can create new polls.
+- **Vote on Polls**: Users can vote on existing polls.
+- **View Results**: Users can view the results of the polls.
+
+## Contributing
+
+If you would like to contribute to this project, please fork the repository and submit a pull request. We welcome all contributions!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+If you have any questions or suggestions, feel free to open an issue or contact me directly.
+
+---
+
+Thank you for using the Decentralized Polling System! We hope it helps you manage your polls efficiently.
 
